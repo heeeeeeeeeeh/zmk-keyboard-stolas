@@ -1,0 +1,5 @@
+config SHIELD_STOLAS_LEFT
+    def_bool $(shields_list_contains,stolas_left)
+
+config SHIELD_STOLAS_RIGHT
+    def_bool $(shields_list_contains,stolas_right)
